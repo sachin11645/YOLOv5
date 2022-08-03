@@ -1,0 +1,27 @@
+install.packages('tidyverse')
+install.packages('gtable')
+install.packages('grid')
+install.packages('plotly')
+install.packages('magrittr')
+install.packages('gridExtra')
+install.packages('ggforce')
+install.packages('kableExtra')
+install.packages('leaflet')
+install.packages('rlang)')
+
+library(tidyverse)
+library(gtable)
+library(grid)
+library(plotly)
+library(lubridate)
+library(magrittr)
+library(gridExtra)
+library(ggforce)
+library(kableExtra)
+library(leaflet)
+library(rlang)
+library(scales)
+
+write_csv(results, "R.csv")
+
+
